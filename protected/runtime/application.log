@@ -1,0 +1,491 @@
+2016/04/09 10:16:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app1/index.php?r=gii
+---
+2016/04/09 10:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app1/index.php?r=gii
+---
+2016/04/09 10:20:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app1/index.php?r=gii
+---
+2016/04/09 10:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app1/index.php?r=gii
+---
+2016/04/09 10:27:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app1/?r=gii
+---
+2016/04/09 11:33:55 [error] [php] array_filter() expects parameter 1 to be array, null given (C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php:19)
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): LServiceController->runAction()
+#2 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): LServiceController->runActionWithFilters()
+#3 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): LServiceController->run()
+#4 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\OpenServer\domains\yii.local\app1\index.php(13): CWebApplication->run()
+REQUEST_URI=/app1/index.php?r=lservice
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (19)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 11:34:53 [error] [php] array_filter() expects parameter 1 to be array, null given (C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php:24)
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): LServiceController->runAction()
+#2 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): LServiceController->runActionWithFilters()
+#3 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): LServiceController->run()
+#4 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\OpenServer\domains\yii.local\app1\index.php(13): CWebApplication->run()
+REQUEST_URI=/app1/index.php?r=lservice
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (24)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 11:34:56 [error] [php] array_filter() expects parameter 1 to be array, null given (C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php:24)
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): LServiceController->runAction()
+#2 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): LServiceController->runActionWithFilters()
+#3 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): LServiceController->run()
+#4 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\OpenServer\domains\yii.local\app1\index.php(13): CWebApplication->run()
+REQUEST_URI=/app1/index.php?r=lservice
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (24)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 12:11:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1049 Unknown database '$schema=test_db'. The SQL statement executed was: SHOW TABLES FROM `$schema=test_db`.
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (13)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 12:11:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1049 Unknown database '$schema=test_db'. The SQL statement executed was: SHOW TABLES FROM `$schema=test_db`.
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (13)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 12:18:57 [error] [php] Illegal offset type in isset or empty (C:\OpenServer\domains\yii.local\framework\db\schema\CDbSchema.php:138)
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionIndex()
+#1 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): LServiceController->runAction()
+#3 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): LServiceController->runActionWithFilters()
+#4 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): LServiceController->run()
+#5 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\OpenServer\domains\yii.local\app1\index.php(13): CWebApplication->run()
+REQUEST_URI=/app1/index.php?r=lservice
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (13)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 13:57:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "labelsservice".' in C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('labelsservice')
+#1 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app1/index.php?r=labelsservice
+---
+2016/04/09 18:23:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :tname.
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (76)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 18:23:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :tname' in C:\OpenServer\domains\yii.local\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\db\ar\CActiveRecord.php(1823): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(76): CActiveRecord->deleteAll(Object(CDbCriteria))
+#2 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#3 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#7 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#8 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice
+---
+2016/04/09 18:26:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :tname.
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (79)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 18:26:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :tname' in C:\OpenServer\domains\yii.local\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\db\ar\CActiveRecord.php(1823): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(79): CActiveRecord->deleteAll(Object(CDbCriteria))
+#2 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#3 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#7 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#8 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice
+---
+2016/04/09 18:31:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :t.
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (75)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 18:31:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :t' in C:\OpenServer\domains\yii.local\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\db\ar\CActiveRecord.php(1823): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(75): CActiveRecord->deleteAll('table = :t', Array)
+#2 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#3 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#7 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#8 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice
+---
+2016/04/09 18:32:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :t.
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (75)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 18:32:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :t' in C:\OpenServer\domains\yii.local\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\db\ar\CActiveRecord.php(1823): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(75): CActiveRecord->deleteAll('table = :t', Array)
+#2 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#3 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#7 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#8 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice
+---
+2016/04/09 18:41:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'l WHERE l.table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM labels_db l WHERE l.table = :t.
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (80)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 18:41:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'l WHERE l.table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM labels_db l WHERE l.table = :t' in C:\OpenServer\domains\yii.local\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(80): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#2 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#6 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#7 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice
+---
+2016/04/09 18:47:08 [error] [php] PDOStatement::bindParam() expects parameter 3 to be long, string given (C:\OpenServer\domains\yii.local\framework\db\CDbCommand.php:251)
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#1 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): LServiceController->runAction()
+#3 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): LServiceController->runActionWithFilters()
+#4 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): LServiceController->run()
+#5 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\OpenServer\domains\yii.local\app1\index.php(13): CWebApplication->run()
+REQUEST_URI=/app1/index.php?r=lservice/save
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (79)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 18:50:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :t.
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (78)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 18:50:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :t' in C:\OpenServer\domains\yii.local\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\db\ar\CActiveRecord.php(1823): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(78): CActiveRecord->deleteAll('table = :t', Array)
+#2 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#3 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#7 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#8 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice
+---
+2016/04/09 18:51:58 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :t.
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (78)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 18:51:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :t' in C:\OpenServer\domains\yii.local\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\db\ar\CActiveRecord.php(1823): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(78): CActiveRecord->deleteAll('table = :t', Array)
+#2 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#3 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#7 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#8 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice
+---
+2016/04/09 18:52:29 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :t.
+in C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php (78)
+in C:\OpenServer\domains\yii.local\app1\index.php (13)
+2016/04/09 18:52:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table = 'v_tbl1'' at line 1. The SQL statement executed was: DELETE FROM `labels_db` WHERE table = :t' in C:\OpenServer\domains\yii.local\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\db\ar\CActiveRecord.php(1823): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(78): CActiveRecord->deleteAll('table = :t', Array)
+#2 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#3 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#7 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#8 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice
+---
+2016/04/09 19:52:58 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.table" is not defined.' in C:\OpenServer\domains\yii.local\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\YiiBase.php(220): CComponent->__set('table', 'table')
+#1 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\OpenServer\domains\yii.local\app1\protected\views\lService\message_done.php(50): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#8 C:\OpenServer\domains\yii.local\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#9 C:\OpenServer\domains\yii.local\framework\web\CController.php(782): CController->renderPartial('message_done', Array, true)
+#10 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(97): CController->render('message_done', Array)
+#11 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#12 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#16 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#17 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice/index
+---
+2016/04/09 19:53:01 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.table" is not defined.' in C:\OpenServer\domains\yii.local\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\YiiBase.php(220): CComponent->__set('table', 'table')
+#1 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\OpenServer\domains\yii.local\app1\protected\views\lService\message_done.php(50): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#8 C:\OpenServer\domains\yii.local\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#9 C:\OpenServer\domains\yii.local\framework\web\CController.php(782): CController->renderPartial('message_done', Array, true)
+#10 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(97): CController->render('message_done', Array)
+#11 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#12 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#16 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#17 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice/index
+---
+2016/04/09 19:53:32 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.table" is not defined.' in C:\OpenServer\domains\yii.local\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\YiiBase.php(220): CComponent->__set('table', 'table')
+#1 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\OpenServer\domains\yii.local\app1\protected\views\lService\message_done.php(50): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#8 C:\OpenServer\domains\yii.local\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#9 C:\OpenServer\domains\yii.local\framework\web\CController.php(782): CController->renderPartial('message_done', Array, true)
+#10 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(97): CController->render('message_done', Array)
+#11 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#12 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#16 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#17 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice/index
+---
+2016/04/09 19:54:04 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.field" is not defined.' in C:\OpenServer\domains\yii.local\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\YiiBase.php(220): CComponent->__set('field', 'field')
+#1 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\OpenServer\domains\yii.local\app1\protected\views\lService\message_done.php(46): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#8 C:\OpenServer\domains\yii.local\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#9 C:\OpenServer\domains\yii.local\framework\web\CController.php(782): CController->renderPartial('message_done', Array, true)
+#10 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(97): CController->render('message_done', Array)
+#11 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#12 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#16 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#17 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice/index
+---
+2016/04/09 19:54:22 [error] [exception.CException] exception 'CException' with message 'Either "name" or "value" must be specified for CDataColumn.' in C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CDataColumn.php:84
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(401): CDataColumn->init()
+#1 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#2 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(147): CGridView->init()
+#3 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 C:\OpenServer\domains\yii.local\app1\protected\views\lService\message_done.php(51): CBaseController->widget('zii.widgets.gri...', Array)
+#5 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#7 C:\OpenServer\domains\yii.local\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#8 C:\OpenServer\domains\yii.local\framework\web\CController.php(782): CController->renderPartial('message_done', Array, true)
+#9 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(97): CController->render('message_done', Array)
+#10 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#11 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#15 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#16 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice/index
+---
+2016/04/09 19:54:42 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.table" is not defined.' in C:\OpenServer\domains\yii.local\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\YiiBase.php(220): CComponent->__set('table', 'table')
+#1 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\OpenServer\domains\yii.local\app1\protected\views\lService\message_done.php(50): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#8 C:\OpenServer\domains\yii.local\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#9 C:\OpenServer\domains\yii.local\framework\web\CController.php(782): CController->renderPartial('message_done', Array, true)
+#10 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(97): CController->render('message_done', Array)
+#11 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#12 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#16 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#17 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice/index
+---
+2016/04/09 19:56:20 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.table" is not defined.' in C:\OpenServer\domains\yii.local\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\YiiBase.php(220): CComponent->__set('table', 'table')
+#1 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\OpenServer\domains\yii.local\app1\protected\views\lService\message_done.php(51): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#8 C:\OpenServer\domains\yii.local\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#9 C:\OpenServer\domains\yii.local\framework\web\CController.php(782): CController->renderPartial('message_done', Array, true)
+#10 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(97): CController->render('message_done', Array)
+#11 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#12 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#16 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#17 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice/index
+---
+2016/04/09 19:56:29 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.table" is not defined.' in C:\OpenServer\domains\yii.local\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\YiiBase.php(220): CComponent->__set('table', 'table')
+#1 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\OpenServer\domains\yii.local\app1\protected\views\lService\message_done.php(50): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#8 C:\OpenServer\domains\yii.local\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#9 C:\OpenServer\domains\yii.local\framework\web\CController.php(782): CController->renderPartial('message_done', Array, true)
+#10 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(97): CController->render('message_done', Array)
+#11 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#12 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#16 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#17 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice/index
+---
+2016/04/09 19:59:33 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\OpenServer\domains\yii.local\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\yii.local\framework\YiiBase.php(220): CComponent->__set('0', 'id')
+#1 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\OpenServer\domains\yii.local\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\OpenServer\domains\yii.local\app1\protected\views\lService\message_done.php(31): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\yii.local\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#8 C:\OpenServer\domains\yii.local\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#9 C:\OpenServer\domains\yii.local\framework\web\CController.php(782): CController->renderPartial('message_done', Array, true)
+#10 C:\OpenServer\domains\yii.local\app1\protected\controllers\LServiceController.php(97): CController->render('message_done', Array)
+#11 C:\OpenServer\domains\yii.local\framework\web\actions\CInlineAction.php(49): LServiceController->actionSave()
+#12 C:\OpenServer\domains\yii.local\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\OpenServer\domains\yii.local\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\OpenServer\domains\yii.local\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(282): CController->run('save')
+#16 C:\OpenServer\domains\yii.local\framework\web\CWebApplication.php(141): CWebApplication->runController('lservice/save')
+#17 C:\OpenServer\domains\yii.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\OpenServer\domains\yii.local\app1\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/app1/index.php?r=lservice/save
+HTTP_REFERER=http://yii.local/app1/index.php?r=lservice/index
+---
